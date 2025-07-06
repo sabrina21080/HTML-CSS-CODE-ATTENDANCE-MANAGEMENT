@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Attendanc management system</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header"> 
+       <div class="logo">
+         <a href="#"><img src="images/logo.png" alt="logo"></a> 
+       
+    
+        </div>
+    <div class="container">
+      <div class="logo">Attendance management System</div>
+      <nav class="nav" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#login">Login</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        &#9776;
+      </div>
+    </div>
+  </header>
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">Simplify Class Attendance</h1>
+      <p class="hero-subtitle">
+        Track, manage, and analyze student attendance in real time with ease.
+      </p>
+      <a href="#signup" class="hero-btn">Get Started</a>
+    </div>
+  </div>
+</section>
+
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('navMenu');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+    <!-- Features Section -->
+<section class="features" id="features">
+  <div class="features-container">
+    <h2 class="features-title">Key Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Real-time Tracking</h3>
+        <p>Monitor attendance as it happens with instant updates.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Detailed Reports</h3>
+        <p>Generate attendance summaries and analytics effortlessly.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Multi-User Access</h3>
+        <p>Separate dashboards for students, teachers, and admins.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Secure & Scalable</h3>
+        <p>Built with security in mind for institutions of any size.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- How It Works Section -->
+<section class="how-it-works" id="about">
+  <div class="how-container">
+    <h2 class="how-title">How It Works</h2>
+    <div class="how-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3 class="step-title">Start a Session</h3>
+        <p class="step-desc">
+          Teachers log in and create a class session with just one click.
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3 class="step-title">Student Check-in</h3>
+        <p class="step-desc">
+          Students scan a QR code or tap in using NFC to mark attendance.
+        </p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3 class="step-title">View Reports</h3>
+        <p class="step-desc">
+          The system automatically generates attendance records and analytics.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Testimonials / Success Stories Section -->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-container">
+    <h2 class="testimonials-title">What Our Users Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-text">"AttendancePro has transformed how we track attendance. It’s fast, accurate, and reliable."</p>
+        <h4 class="testimonial-author">– M.A Mazid,Principal</h4>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">"No more manual registers! I can now manage my classes in half the time."</p>
+        <h4 class="testimonial-author">– Md Habibur Rahman, teacher</h4>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">"As a student, checking in is effortless. I just scan and go!"</p>
+        <h4 class="testimonial-author">– Ruhama, Final Year Student</h4>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Call to Action Section -->
+<section class="cta" id="signup">
+  <div class="cta-container">
+    <h2 class="cta-title">Start Managing Your Class Better</h2>
+    <p class="cta-subtitle">
+      Sign up today and streamline your attendance tracking process.
+    </p>
+    <a href="#login" class="cta-button">Get Started</a>
+  </div>
+</section>
+ <!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Attendance</h3>
+      <p>Smart Attendance Management for Modern Classrooms.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">How It Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email: sabrinaakther2025@gmail.com</p>
+      <p>Phone: +8801849199</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Attendance. All rights reserved.</p>
+  </div>
+</footer>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</body>
+</html>
